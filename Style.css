@@ -1,0 +1,72 @@
+#homepageBanner {
+	width: 100%;
+	position: relative;
+}
+#Logo {
+	width: 30%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+.Places {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+ul {
+list-style-type: none;
+}
+
+li {
+	padding: 10px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#homepageBannerdiv {
+	display: flex;
+}
+
+	#Cards {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	h1, #homepageBannerdiv > h2 {
+		position: absolute;
+		color: white;
+	}
+
+	h1 {
+		transform: translate(25%, 150%);
+	}
+
+	#Bookrightnow {
+		transform: translate(150%, 900%);
+		background-color: BLACK;
+	}
+
+	#liveandtravelanywhere {
+		padding: 10px;
+	}
+
+	#Ethan {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.Places:hover {
+		opacity:0.8;
+	}
+
